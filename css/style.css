@@ -1,0 +1,52 @@
+/****** Mobile Layout ******/
+.wrap {
+  padding: 2rem;
+  margin: 0 auto;
+/****** /Layout ******/
+
+/****** Media Queries ******/
+@media screen and (min-width: 969px) {
+	.wrap {
+		width: 970px;
+	}
+}
+/****** /Media Queries ******/
+
+/****** Type ******/
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  
+}
+* {
+	box-sizing: border-box;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	margin: 1em 0;
+  font-size: 1.75rem;
+}
+p {
+	font-size: 1.2rem;
+	line-height: 1.6;
+	margin-bottom: 2rem;
+	font-weight: 300;
+}
+.accent {
+	color: #871719;
+}
+/****** /Type ******/
+
+/****** History ******/
+.history {
+  	background: #871719;
+	background-image: url('https://github.com/CodeLouisville/May2017-FEWD-Class-Project/blob/master/img/louies-bg-making-red.jpg?raw=true');
+ background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #F2F2F2;
+}
+/****** /History ******/
